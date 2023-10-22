@@ -1,0 +1,43 @@
+.cards1{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+      text-decoration: dashed;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.cards{ 
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
+    text-decoration: dashed;
+  align-items: center;
+  margin-top: 30px;
+
+}
+.card{
+       border-radius: 20px;
+       align-items: flex-end;
+  
+    text-align: center;
+    display: flex;
+    margin: 30px;
+    height: 220px;
+    width: 300px;
+    transition: box-shadow .3s;
+
+}
+
+
+.photo{
+    height: 160px;
+}
+.photo:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}
+
+

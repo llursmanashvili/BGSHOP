@@ -1,0 +1,30 @@
+.mobile{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    transition: box-shadow .3s;   
+}
+.mobileprice{
+    color: rgb(214 78 78);
+
+}
+.mobile1{
+    font-size:x-large;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    height: 270px;
+    width: 300px;
+}
+
+.mobilep{
+    
+    height: 200px;
+}
+.mobilep:hover{
+      border-radius: 30px;
+    transition: 1s;
+    transform: scale(1.05);
+
+}

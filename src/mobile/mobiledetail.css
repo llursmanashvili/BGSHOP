@@ -1,0 +1,58 @@
+.mobileinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+.mobilepi{
+    display: flex;
+    width: auto;
+    height:400px;
+    width: 350px;
+    margin-left: 40px;
+}
+.mobileinfo1{
+    margin: 40px;
+
+}
+.mobileprice{
+    text-align: center;
+    font-weight: 20;
+}
+.mobiletitle{
+    text-align: center;
+}
+.mobiledsc{
+    padding: 10px;
+}
+@media screen and (max-width:625px){
+    .mobileinfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        width: auto;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .mobilepi{
+        display: flex;
+        width: auto;
+        height:400px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .mobileinfo1{
+        margin: 20px;
+   
+    }
+    .mobileprice{
+        text-align: center;
+    }
+    .mobiledsc{
+        text-align: center;
+       
+    }
+}

@@ -1,0 +1,37 @@
+.toy1{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 15px;
+    
+    
+    
+}
+.toyprice{
+    color: rgb(214 78 78);
+
+}
+
+.toy2{
+    font-size:x-large;
+    border-radius: 20px;
+    align-items: flex-end;
+
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.toy3{
+    
+    height: 187px;
+}
+.toy3:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}

@@ -1,0 +1,45 @@
+.cards1{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 15px; 
+          
+}
+
+.techprice{
+    color: rgb(214 78 78);
+}
+.cards2{
+    margin: 30px;
+    font-size:x-large;
+    border-radius: 20px;
+    align-items: flex-end;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.photo1{
+    
+    height: 187px;
+}
+.photo1:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}
+.plastic{
+    
+    height:180px ;
+
+}
+.plastic:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}

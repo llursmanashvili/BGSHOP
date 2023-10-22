@@ -1,0 +1,33 @@
+.acce3{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;     
+    transition: box-shadow .3s;
+
+
+
+}
+
+.acce2{
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+
+    margin: 10px;
+    height: 370px;
+    width: 300px;
+}
+.accesprice{
+    color: rgb(214 78 78);
+
+}
+
+.acce1{
+    height: 300px;
+}
+.acce1:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}

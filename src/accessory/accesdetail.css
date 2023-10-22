@@ -1,0 +1,66 @@
+.accesinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+.accesp{
+    display: flex;
+    width: auto;
+    height:300px;
+    width: 300px;
+    margin-left: 40px;
+}
+.accesinfo1{
+    margin: 40px;
+    text-align: center;
+}
+.accesprice{
+    text-align: center;
+    font-weight: 20;
+}
+.accesdesc{
+    font-size: x-large;
+
+}
+.accesdsc{
+    margin-left: 10px;
+    font-size: larger;
+}
+@media screen and (max-width:625px){
+    .accesinfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        width: auto;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .accesp{
+        display: flex;
+        width: auto;
+        height:300px;
+        width: 300px;
+        margin-left: 5px;
+    }
+    .accesinfo1{
+        margin: 20px;
+   
+    }
+    .accesprice{
+        text-align: center;
+    }
+    .accesdsc{
+        text-align: center;
+       
+    }
+    .accesdesc{
+        display: flex;
+        flex-direction: column;
+        font-size: x-large;
+        text-align: center;
+    }
+}

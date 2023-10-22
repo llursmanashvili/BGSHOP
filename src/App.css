@@ -1,0 +1,11 @@
+.pp{ 
+  display:grid;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+  width: auto;
+  
+}

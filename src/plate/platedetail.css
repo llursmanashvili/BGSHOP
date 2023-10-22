@@ -1,0 +1,59 @@
+.plateinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+.platep{
+    display: flex;
+    width: auto;
+    height:300px;
+    width: 300px; 
+    margin-left: 40px;
+}
+
+
+.plateinfo1{
+    margin: 40px;
+    text-align: center;
+
+}
+.plateprice{
+    text-align: center;
+    font-weight: 100;
+}
+.platedsc{
+    margin-left: 10px;
+    font-size: larger;
+}
+@media screen and (max-width:625px){
+    .plateinfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .platep{
+        display: flex;
+        width: auto;
+        height:300px;
+        width: 300px;
+        margin-left: 5px;
+    }
+
+
+    .plateinfo1{
+        margin: 20px;
+      
+    }
+    .plateprice{
+        text-align: center;
+    }
+    .platedsc{
+        text-align: center;
+    }
+}

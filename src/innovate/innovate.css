@@ -1,0 +1,36 @@
+.innovate{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+
+    
+    transition: box-shadow .3s;
+
+  
+    
+    
+}
+.innovateprice{
+    color: rgb(214 78 78);
+
+}
+.innovate1{
+    font-size:x-large;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    height: 270px;
+    width: 300px;
+}
+
+.innovatep{
+    
+    height: 200px;
+}
+.innovatep:hover{
+      border-radius: 30px;
+    transition: 1s;
+    transform: scale(1.05);
+
+}

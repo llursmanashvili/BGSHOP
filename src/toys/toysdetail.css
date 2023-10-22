@@ -1,0 +1,59 @@
+.toyinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+.toyp{
+    display: flex;
+    width: auto;
+    height:300px;
+    width: 400px; 
+    margin-left: 40px;
+}
+
+
+.toyinfo1{
+    margin: 40px;
+    text-align: center;
+
+}
+.toyprice{
+    text-align: center;
+    font-weight: 100;
+}
+.toydesc{
+    margin-left: 10px;
+    font-size: larger;
+}
+@media screen and (max-width:625px){
+    .toyinfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        align-items: center;
+    }
+    .toyp{
+        display: flex;
+        width: auto;
+        height:300px;
+        width: 300px;
+        margin-left: 2px;
+    }
+
+
+    .toyinfo1{
+        margin: 20px;
+      
+    }
+    .toyprice{
+        text-align: center;
+    }
+    .toydesc{
+        text-align: center;
+    }
+}

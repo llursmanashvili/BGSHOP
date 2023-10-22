@@ -1,0 +1,35 @@
+.plate{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;  
+   transition: box-shadow .3s;
+
+    
+}
+.plateprice{
+    color: rgb(214 78 78);
+
+}
+
+.plate1{
+    font-size:x-large;
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+
+    border-radius: 20px;
+    margin: 10px;
+    height: 250px;
+    width: 300px;
+}
+
+.plate2{
+    
+    height: 185px;
+}
+.plate2:hover{
+    border-radius: 30px;
+  transition: 1s;
+  transform: scale(1.05);
+
+}

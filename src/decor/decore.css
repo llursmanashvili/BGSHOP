@@ -1,0 +1,28 @@
+.decor3{ 
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap-reverse;       
+    transition: box-shadow .3s;
+}
+.decoreprice{
+    color: rgb(214 78 78);
+}
+
+.decor2{
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.decor1{
+    height: 230px;
+}
+.decor1:hover{
+    border-radius: 30px;
+    transition: 1s;
+    transform: scale(1.05);
+
+}
