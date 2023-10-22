@@ -2,7 +2,7 @@
   "name": "bg-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://llursmanashvili.github.io/bg-shop/",
+  "homepage": "",
   "dependencies": {
     "@babel/core": "^7.21.4",
     "@babel/standalone": "^7.21.4",
