@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import mobilecardinfo from "./mobiledata";
 import "./mobiledetail.css";
 import { useEffect } from "react";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Mobiledetail = () => {
   useEffect(() => {
@@ -33,12 +34,14 @@ const Mobiledetail = () => {
                 </div>
               </div>
               <div className="mobiledsc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p className="">{product.desc}</p>
-                <hr />
-                <p className="">{product.desc1}</p>
-                <p className="">{product.desc2}</p>
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );

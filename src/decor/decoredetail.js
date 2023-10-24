@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import decorecardinfoi from "./decoredata";
 import "./decoredetail.css";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Decoredetail = () => {
   const { link } = useParams();
@@ -32,12 +33,14 @@ const Decoredetail = () => {
                 </div>
               </div>
               <div className="decoredsc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p className="">{product.desc}</p>
-                <p className="">{product.desc1}</p>
-
-                <hr />
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );

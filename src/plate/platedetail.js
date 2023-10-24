@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import platecardinfoi from "./platedata";
 import "./platedetail.css";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Platedetail = () => {
   const { link } = useParams();
@@ -33,10 +34,14 @@ const Platedetail = () => {
                 </div>
               </div>
               <div className="platedsc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p className="">{product.desc}</p>
-                <hr />
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );

@@ -65,7 +65,7 @@ export default function Cards() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 30);
   }, []);
   return (
     <div className="cards">

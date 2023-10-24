@@ -39,6 +39,8 @@ const toycardinfoi = [
     title: "სათამაშო მანქანა",
     price: "12 ლარი",
     image: toy3,
+    original: toy3,
+    thumbnail: toy3,
   },
   {
     desc: "",
@@ -46,6 +48,8 @@ const toycardinfoi = [
     title: "პოლიციელის მანქანა",
     price: "12 ლარი",
     image: toy4,
+    original: toy4,
+    thumbnail: toy4,
   },
   {
     desc: "",
@@ -53,6 +57,8 @@ const toycardinfoi = [
     title: "სათამაშო მანქანა",
     price: "13 ლარი",
     image: toy5,
+    original: toy5,
+    thumbnail: toy5,
   },
   {
     desc: "",
@@ -267,6 +273,32 @@ const toycardinfoi = [
     title: "ბუდე ჩიტუნებისთვის",
     price: "25 ლარი",
     image: toy40,
+  },
+];
+const images = [
+  {
+    original: toy3,
+    thumbnail: toy3,
+  },
+  {
+    original: toy4,
+    thumbnail: toy4,
+  },
+  {
+    original: toy5,
+    thumbnail: toy5,
+  },
+  {
+    original: toy6,
+    thumbnail: toy6,
+  },
+  {
+    original: toy8,
+    thumbnail: toy8,
+  },
+  {
+    original: toy9,
+    thumbnail: toy9,
   },
 ];
 export default toycardinfoi;

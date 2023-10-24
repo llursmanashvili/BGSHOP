@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "./techdetail.css";
 import techcardinfoi from "./techdata";
 import { useEffect } from "react";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Techdetail = () => {
   const { link } = useParams();
@@ -32,13 +33,14 @@ const Techdetail = () => {
                 </div>
               </div>
               <div className="techdesc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p>{product.desc}</p>
-                <p>{product.desc1}</p>
-                <p>{product.desc2}</p>
-                <p>{product.desc3}</p>
-                <hr />
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );

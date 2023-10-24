@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import accescardinfoi from "./accesdata";
 import "./accesdetail.css";
 import { useEffect } from "react";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 
 const Accesdetail = () => {
   const { link } = useParams();
@@ -32,12 +33,14 @@ const Accesdetail = () => {
                 </div>
               </div>
               <div className="accesdsc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p>{product.decs2}</p>
-
-                <p>{product.desc}</p>
-                <p>{product.desc1}</p>
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );

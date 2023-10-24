@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./toysdetail.css";
 import toycardinfoi from "./toydata";
+import { MDBAccordion, MDBAccordionItem } from "mdb-react-ui-kit";
 import { useEffect } from "react";
 
 const Toysdetail = () => {
@@ -32,13 +33,14 @@ const Toysdetail = () => {
                 </div>
               </div>
               <div className="toydesc">
-                <h1>პროდუქტის აღწერა:</h1>
-                <hr />
-                <p>{product.desc}</p>
-                <p>{product.desc1}</p>
-                <p>{product.desc2}</p>
-                <p>{product.desc3}</p>
-                <hr />
+                <MDBAccordion initialActive={1}>
+                  <MDBAccordionItem
+                    collapseId={1}
+                    headerTitle="პროდუქტის აღწერა"
+                  >
+                    {product.desc}
+                  </MDBAccordionItem>
+                </MDBAccordion>
               </div>
             </div>
           );
