@@ -35,7 +35,7 @@ const Decoredetail = () => {
               <div className="decoredsc">
                 <MDBAccordion initialActive={1}>
                   <MDBAccordionItem
-                    collapseId={0}
+                    collapseId={2}
                     headerTitle="პროდუქტის აღწერა"
                   >
                     {product.desc}

@@ -36,7 +36,7 @@ const Innovatedetail = () => {
               <div className="innovatedsc">
                 <MDBAccordion initialActive={1}>
                   <MDBAccordionItem
-                    collapseId={0}
+                    collapseId={2}
                     headerTitle="პროდუქტის აღწერა"
                   >
                     {product.desc}
