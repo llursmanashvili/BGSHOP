@@ -36,7 +36,7 @@ const Platedetail = () => {
               <div className="platedsc">
                 <MDBAccordion initialActive={1}>
                   <MDBAccordionItem
-                    collapseId={1}
+                    collapseId={0}
                     headerTitle="პროდუქტის აღწერა"
                   >
                     {product.desc}

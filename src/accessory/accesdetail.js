@@ -35,7 +35,7 @@ const Accesdetail = () => {
               <div className="accesdsc">
                 <MDBAccordion initialActive={1}>
                   <MDBAccordionItem
-                    collapseId={1}
+                    collapseId={0}
                     headerTitle="პროდუქტის აღწერა"
                   >
                     {product.desc}
